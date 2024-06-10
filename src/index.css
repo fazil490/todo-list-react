@@ -1,0 +1,44 @@
+.main {
+  width: fit-content;
+  margin: auto;
+}
+
+.header {
+  color: cadetblue;
+}
+
+.input {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  outline: none;
+  border: 1px solid cadetblue;
+}
+
+.btn{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-del {
+    background-color: crimson;
+    padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+}
